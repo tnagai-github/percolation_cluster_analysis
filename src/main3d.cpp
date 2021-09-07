@@ -1,3 +1,7 @@
+/////////////////////////////////////////////////////////
+// (c) 2021 Tetsuro Nagai 
+/////////////////////////////////////////////////////////
+
 #include <iostream>
 #include <fstream>
 #include <random>
@@ -23,6 +27,11 @@ int N;
 
 std::vector<int> sites;
 std::vector<int> parent;
+
+
+// The functions init, find, unite, connect, pos2index 
+// were taken or adopted from https://github.com/kaityo256/mc/tree/master/percolation/ 
+// (c) 2012-2019 H. Watanabe 
 
 void init(int size){
     L=size;
