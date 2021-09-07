@@ -1,5 +1,5 @@
 # percolation_cluster_analysis
-- simple tool to perform percolation cluster analysis to three dimensional surrfaces
+- A tool to perform percolation cluster analysis to three dimensional maps
 
 ## how to install 
 
@@ -10,4 +10,7 @@
   - `cmake  -DPRETTYPRINT=/path_to/cxx-prettyprint/ path_to/src && make `
 
 - you will get an executable file, percolation_analysis_3d
+
+## citation
+If you use this program, please consider to cite T. Nagai et al., "Three-dimensional free energy landscape of hydrogen and oxygen molecules in polymer electrolyte membranes: Insight into diffusion paths", in preparation. 
 
