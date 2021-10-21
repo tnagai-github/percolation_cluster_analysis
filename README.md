@@ -1,5 +1,5 @@
 # percolation_cluster_analysis
-- A tool to perform percolation cluster analysis to three dimensional maps
+- A tool to perform percolation cluster analysis of three dimensional maps
 
 ## how to install 
 
